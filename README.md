@@ -3,8 +3,6 @@
 
 # Tcl/Tk Libraries for R
 
-<!-- *** -->
-
 ## Installation
 
 To install the development version of the package from “GitHub”:
@@ -16,3 +14,9 @@ if (!require("remotes"))  install.packages("remotes")
 # Install RcmdrPlugin.biostat
 remotes::install_github("GegznaV/tcltklibs")
 ```
+
+## Links
+
+  - <https://www.nemethi.de/>
+  - Talbelist
+      - <https://wiki.tcl-lang.org/page/tablelist>
