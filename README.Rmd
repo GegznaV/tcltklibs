@@ -1,0 +1,29 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+ 
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = FALSE, fig.height = 4, fig.width = 6,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+
+Tcl/Tk Libraries for R
+==============================================================================
+
+## Installation
+
+To install the development version of the package from “GitHub”:
+
+```{r Install package, eval=FALSE}
+# Install required packages
+if (!require("remotes"))  install.packages("remotes")
+
+# Install RcmdrPlugin.biostat
+remotes::install_github("GegznaV/tcltklibs")
+```

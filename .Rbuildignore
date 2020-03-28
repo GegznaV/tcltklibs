@@ -1,0 +1,23 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+data-raw.*
+.gitignore
+README.Rmd
+_pkgdown.yaml
+^docs.*
+logfilename
+.travis.yml
+Rplots.pdf
+_templates.*
+functions-under-development.*
+tutorials-under-development'.*
+tutorials-under-development
+RcmdrPlugin.biostat-removed - Shortcut.lnk
+__rsurvey/*
+^appveyor\.yml$
+^LICENSE\.md$
+^inst/tklibs.*
+pkgdown/
+^_pkgdown\.yml$
+^docs$
+^pkgdown$

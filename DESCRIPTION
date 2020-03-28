@@ -1,0 +1,24 @@
+Package: tcltklibs
+Type: Package
+Version: 0.0.0.9000
+Date: 2020-03-28
+Title: Tcl/Tk Libraries and Widgets for R
+Description: Tcl/Tk Libraries and Widgets for R.
+Authors@R: c(
+    person("Vilmantas", "Gegzna", role = c("aut","cre"),
+           comment = c(ORCID = "0000-0002-9500-5167"),
+           email = "GegznaV@gmail.com")
+    )
+License: GPL-3 + file LICENSE
+Encoding: UTF-8
+LazyData: true
+ByteCompile: false
+URL: 
+    https://gegznav.github.io/tcltklibs/,
+    https://github.com/GegznaV/tcltklibs/
+BugReports: https://github.com/GegznaV/tcltklibs/issues
+RoxygenNote: 7.1.0
+Imports:
+    tcltk,
+    tcltk2,
+    fs
